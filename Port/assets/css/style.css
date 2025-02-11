@@ -1,0 +1,24 @@
+/* Main wrapper to contain sidebar and content */
+.wrapper {
+    display: flex;
+    height: 100vh; /* Full height */
+}
+
+
+/* Main content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    
+    .main-content {
+        width: 100%;
+    }
+}

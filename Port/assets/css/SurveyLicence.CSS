@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 8px;
+    display: block;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="tel"], input[type="date"], textarea, select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.radio-group input,
+.checkbox-group input {
+    margin-right: 5px;
+}
+
+input[type="file"] {
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 95%;
+}
+
+button[type="submit"], .button-container button {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Styling for the Cancel button */
+.button-container button[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-container button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+/* Styling for the Submit button */
+.button-container button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+}
+
+.button-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.required {
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for the button group container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.button-container button {
+    flex: 1; /* Ensure buttons take equal width */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
